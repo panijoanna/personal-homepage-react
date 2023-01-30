@@ -1,13 +1,24 @@
-# 👋 Hi, I'm Joanna. Get to know me here. 👋
+## Hi, I'm Joanna 👋 - Frontend Developer 🚀
 ![gif](https://user-images.githubusercontent.com/105354955/215278394-285c2b17-694c-40e3-abbc-ae8483cdc67f.gif)
 
-## About me ✔️
-I am an **ambitious** person who codes with passion. I am systematically working on becoming a **frontend developer**. Likewise, I like to learn new things and I like technologies. Sport have taught me to achieve goals in life. 
+## 💻 About me 
+💡 I'm interested in Frontend technologies
 
-Besides, I have many diverse interests:  
-🥋 Many sports including judo & karate (I train karate and I trained judo)  
-☕️ Coffee & Japanese tea lover  
-🏍 Motocross  
-🎮 Video games   
+📚 Passionate about React
 
-## Technologies
+💬 You can talk to me about anything, but especially about: computer games, coffee, Japanese tea, Japanese martial arts, cars and yoga
+
+## 🛠️ Skills
+![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML5)
+
+![CSS](https://img.shields.io/badge/-CSS-000?&logo=CSS3)
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
+
+![React](https://img.shields.io/badge/-React-000?&logo=React)
+
+![Redux](https://img.shields.io/badge/-Redux-000?&logo=Redux)
+
+#### 🚀 next: 
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript&logoColor=007ACC)
