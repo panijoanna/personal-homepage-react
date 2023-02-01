@@ -1,5 +1,6 @@
 ## Hi, I'm Joanna 👋 - Frontend Developer 🚀
-![Untitled](https://user-images.githubusercontent.com/105354955/215996644-f90badba-49eb-4376-af07-510e312b92ac.jpg)
+
+![Untitled](https://user-images.githubusercontent.com/105354955/215997277-bfc6f576-3111-4c31-af5c-898cfc3e8060.png)
 
 ## 💻 About me 
 💡 I'm interested in Frontend technologies
