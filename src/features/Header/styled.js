@@ -15,3 +15,13 @@ line-height: 130%;
 text-transform: uppercase;
 color: #6E7E91;
 `;
+
+export const Heading = styled.h1`
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #252525;
+`;
