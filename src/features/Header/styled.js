@@ -49,3 +49,7 @@ export const Button = styled.button`
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
 `;
+
+export const Container = styled.div`
+
+`;
