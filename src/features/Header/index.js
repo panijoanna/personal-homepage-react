@@ -1,6 +1,6 @@
 import photo from "./photo.jpg";
 import { MainParagraph, Image, Heading, Paragraph, Button } from "./styled";
-import { Wrapper } from "../common/Wrapper/styled.js";
+import { Wrapper } from "../../common/Wrapper/styled.js";
 
 const Header = () => {
   return (
