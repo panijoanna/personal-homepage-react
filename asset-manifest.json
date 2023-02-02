@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/personal-homepage-react/static/js/main.02910c46.js",
+    "static/js/787.df33c875.chunk.js": "/personal-homepage-react/static/js/787.df33c875.chunk.js",
+    "static/media/photo.jpg": "/personal-homepage-react/static/media/photo.b96412610248767fb648.jpg",
+    "index.html": "/personal-homepage-react/index.html",
+    "main.02910c46.js.map": "/personal-homepage-react/static/js/main.02910c46.js.map",
+    "787.df33c875.chunk.js.map": "/personal-homepage-react/static/js/787.df33c875.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.02910c46.js"
+  ]
+}
