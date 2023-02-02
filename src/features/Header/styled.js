@@ -36,3 +36,16 @@ export const Heading = styled.h1`
   letter-spacing: 0.05em;
   color: #252525;
 `;
+
+export const Button = styled.button`
+  font-family: "Inter";
+  padding: 12px 16px;
+  background: #0366d6;
+  width: 154px;
+  height: 49px;
+  left: 809px;
+  top: 381px;
+  color: white;
+  border: 1px solid rgba(209, 213, 218, 0.3);
+  border-radius: 4px;
+`;
