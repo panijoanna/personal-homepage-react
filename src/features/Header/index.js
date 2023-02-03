@@ -9,6 +9,7 @@ import {
   Link,
 } from "./styled";
 import { Wrapper } from "../../common/Wrapper/styled.js";
+import MessageIcon from "../Icons/MessageIcon";
 
 const Header = () => {
   return (
@@ -23,7 +24,10 @@ const Header = () => {
           rewarding field to be in.🚀
         </MainParagraph>
         <Link href="mailto:p.joanna93@gmail.com">
-          <Button>Hire me</Button>
+          <Button>
+            <MessageIcon />
+            Hire me
+          </Button>
         </Link>
       </Container>
     </Wrapper>
