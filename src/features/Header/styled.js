@@ -53,3 +53,7 @@ export const Button = styled.button`
 `;
 
 export const Container = styled.div``;
+
+export const Link = styled.a`
+  text-decoration: none;
+`;
