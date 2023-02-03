@@ -1,5 +1,11 @@
 ## Hi, I'm Joanna 👋 - Frontend Developer 🚀
 
+## ✅ Demo 
+Here is my demo:
+https://panijoanna.github.io/personal-homepage-react/
+
+📌 This project is not yet completed.
+
 ![Untitled](https://user-images.githubusercontent.com/105354955/215997277-bfc6f576-3111-4c31-af5c-898cfc3e8060.png)
 
 ## 💻 About me 
