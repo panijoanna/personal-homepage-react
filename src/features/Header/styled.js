@@ -38,18 +38,18 @@ export const Heading = styled.h1`
 `;
 
 export const Button = styled.button`
-  font-family: "Inter";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 12px 16px;
+  gap: 16px;
+  font-family: "Inter";
+  font-weight: 600;
   background: #0366d6;
-  width: 154px;
-  height: 49px;
-  left: 809px;
-  top: 381px;
   color: white;
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
 `;
 
-export const Container = styled.div`
-
-`;
+export const Container = styled.div``;
