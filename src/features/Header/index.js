@@ -6,6 +6,7 @@ import {
   Paragraph,
   Button,
   Container,
+  Link,
 } from "./styled";
 import { Wrapper } from "../../common/Wrapper/styled.js";
 
@@ -21,7 +22,9 @@ const Header = () => {
           evolving and presents new challenges, which makes it an exciting and
           rewarding field to be in.🚀
         </MainParagraph>
-        <Button>Hire me</Button>
+        <Link href="mailto:p.joanna93@gmail.com">
+          <Button>Hire me</Button>
+        </Link>
       </Container>
     </Wrapper>
   );
