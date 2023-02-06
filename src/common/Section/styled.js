@@ -20,3 +20,9 @@ export const Heading = styled.h2`
   text-align: center;
   letter-spacing: 0.05em;
 `;
+
+export const SectionHeader = styled.header``;
+
+export const SectionContainer = styled.div`
+  padding: 0 5px 10px 0;
+`;
