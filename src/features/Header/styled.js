@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionHeader = styled.header``;
+export const StyledHeader = styled.header``;
 
 export const Image = styled.img`
   border-radius: 50%;
