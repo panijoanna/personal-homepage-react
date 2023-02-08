@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const MainParagraph = styled.p`
   font-family: "Inter";
@@ -9,4 +9,10 @@ export const MainParagraph = styled.p`
   letter-spacing: 0.05em;
   color: #6e7e91;
   max-width: 600px;
+
+  ${({ primary }) =>
+    primary &&
+    css`
+      color: #252525;
+    `}
 `;
