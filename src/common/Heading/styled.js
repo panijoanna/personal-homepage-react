@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Heading = styled.h2`
+export const StyledHeading = styled.h2`
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
