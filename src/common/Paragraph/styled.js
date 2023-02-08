@@ -9,10 +9,4 @@ export const StyledParagraph = styled.p`
   letter-spacing: 0.05em;
   color: ${({ color }) => color};
   max-width: 600px;
-
-  ${({ primary }) =>
-    primary &&
-    css`
-      color: #252525;
-    `}
 `;
