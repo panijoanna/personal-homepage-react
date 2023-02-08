@@ -1,7 +1,6 @@
 import photo from "./photo.jpg";
 import {
   Image,
-  StyledParagraph,
   Button,
   Container,
   Link,
@@ -10,13 +9,14 @@ import {
 } from "./styled";
 import MessageIcon from "../Icons/MessageIcon";
 import Paragraph from "../../common/Paragraph/index";
+import { UppercaseParagraph } from "../../common/Paragraph/styled";
 
 const Header = () => {
   return (
     <StyledHeader>
       <Image src={photo} alt="Joanna Panimasz" />
       <Container>
-        <StyledParagraph>This is</StyledParagraph>
+        <UppercaseParagraph>This is</UppercaseParagraph>
         <HeadingTitle>Joanna Panimasz</HeadingTitle>
         <Paragraph
           body="
