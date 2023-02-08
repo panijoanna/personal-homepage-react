@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const StyledHeader = styled.header``;
+export const StyledHeader = styled.header`
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 66px;
+  align-items: center;
+`;
 
 export const Image = styled.img`
   border-radius: 50%;
