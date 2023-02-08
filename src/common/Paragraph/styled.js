@@ -7,7 +7,7 @@ export const StyledParagraph = styled.p`
   font-size: 20px;
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: #6e7e91;
+  color: ${({ color }) => color};
   max-width: 600px;
 
   ${({ primary }) =>
