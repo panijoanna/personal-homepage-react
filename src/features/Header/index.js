@@ -3,7 +3,7 @@ import {
   MainParagraph,
   Image,
   Heading,
-  Paragraph,
+  StyledParagraph,
   Button,
   Container,
   Link,
@@ -16,7 +16,7 @@ const Header = () => {
     <Wrapper>
       <Image src={photo} alt="Joanna Panimasz" />
       <Container>
-        <Paragraph>This is</Paragraph>
+        <StyledParagraph>This is</StyledParagraph>
         <Heading>Joanna Panimasz</Heading>
         <MainParagraph>
           👩‍💻Passionate about Frontend technologies (React). Frontend is always

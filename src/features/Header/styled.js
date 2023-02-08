@@ -6,7 +6,7 @@ export const Image = styled.img`
   padding: 50px;
 `;
 
-export const Paragraph = styled.p`
+export const StyledParagraph = styled.p`
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -16,7 +16,7 @@ export const Paragraph = styled.p`
   color: #6e7e91;
 `;
 
-export const Heading = styled.h1`
+export const HeadingTitle = styled.h1`
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
