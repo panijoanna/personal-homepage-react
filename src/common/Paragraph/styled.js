@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const StyledParagraph = styled.p`
   font-family: "Inter";
@@ -9,4 +9,12 @@ export const StyledParagraph = styled.p`
   letter-spacing: 0.05em;
   color: ${({ color }) => color};
   max-width: 600px;
+`;
+
+export const UppercaseParagraph = styled(StyledParagraph)`
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #6e7e91;
 `;
