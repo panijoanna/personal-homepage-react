@@ -11,8 +11,6 @@ export const StyledSection = styled.section`
   border-radius: 4px;
 `;
 
-export const SectionHeader = styled.header``;
-
 export const SectionContainer = styled.div`
   padding: 0 5px 10px 0;
 `;
