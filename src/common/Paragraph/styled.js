@@ -18,3 +18,13 @@ export const UppercaseParagraph = styled(StyledParagraph)`
   text-transform: uppercase;
   color: #6e7e91;
 `;
+
+export const EmailParagraph = styled(StyledParagraph)`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #252525;
+`;
