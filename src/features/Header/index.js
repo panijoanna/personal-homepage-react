@@ -1,6 +1,5 @@
 import photo from "./photo.jpg";
 import {
-  MainParagraph,
   Image,
   Heading,
   StyledParagraph,
@@ -10,6 +9,7 @@ import {
 } from "./styled";
 import { Wrapper } from "../../common/Wrapper/styled.js";
 import MessageIcon from "../Icons/MessageIcon";
+import Paragraph from "../../common/Paragraph/index";
 
 const Header = () => {
   return (
@@ -18,11 +18,12 @@ const Header = () => {
       <Container>
         <StyledParagraph>This is</StyledParagraph>
         <Heading>Joanna Panimasz</Heading>
-        <MainParagraph>
+        <Paragraph
+          body="
           👩‍💻Passionate about Frontend technologies (React). Frontend is always
           evolving and presents new challenges, which makes it an exciting and
-          rewarding field to be in.🚀
-        </MainParagraph>
+          rewarding field to be in.🚀"
+        />
         <Link href="mailto:p.joanna93@gmail.com">
           <Button>
             <MessageIcon />
