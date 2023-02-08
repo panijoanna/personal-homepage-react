@@ -1,11 +1,11 @@
 import photo from "./photo.jpg";
 import {
   Image,
-  Heading,
   StyledParagraph,
   Button,
   Container,
   Link,
+  HeadingTitle,
 } from "./styled";
 import { Wrapper } from "../../common/Wrapper/styled.js";
 import MessageIcon from "../Icons/MessageIcon";
@@ -17,7 +17,7 @@ const Header = () => {
       <Image src={photo} alt="Joanna Panimasz" />
       <Container>
         <StyledParagraph>This is</StyledParagraph>
-        <Heading>Joanna Panimasz</Heading>
+        <HeadingTitle>Joanna Panimasz</HeadingTitle>
         <Paragraph
           body="
           👩‍💻Passionate about Frontend technologies (React). Frontend is always
