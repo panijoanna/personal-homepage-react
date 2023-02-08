@@ -6,14 +6,14 @@ import {
   Container,
   Link,
   HeadingTitle,
+  StyledHeader,
 } from "./styled";
-import { Wrapper } from "../../common/Wrapper/styled.js";
 import MessageIcon from "../Icons/MessageIcon";
 import Paragraph from "../../common/Paragraph/index";
 
 const Header = () => {
   return (
-    <Wrapper>
+    <StyledHeader>
       <Image src={photo} alt="Joanna Panimasz" />
       <Container>
         <StyledParagraph>This is</StyledParagraph>
@@ -31,7 +31,7 @@ const Header = () => {
           </Button>
         </Link>
       </Container>
-    </Wrapper>
+    </StyledHeader>
   );
 };
 
