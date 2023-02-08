@@ -1,7 +1,7 @@
-import { MainParagraph } from "./styled";
+import { StyledParagraph } from "./styled";
 
 const Paragraph = ({ body }) => {
-  return <MainParagraph>{body}</MainParagraph>;
+  return <StyledParagraph>{body}</StyledParagraph>;
 };
 
 export default Paragraph;

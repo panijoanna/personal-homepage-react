@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const MainParagraph = styled.p`
+export const StyledParagraph = styled.p`
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
