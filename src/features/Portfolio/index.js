@@ -8,7 +8,7 @@ const Portfolio = () => {
     <Wrapper>
       <GithubIcon />
       <Heading title="Portfolio" />
-      <Paragraph primary body="My recent projects" />
+      <Paragraph body="My recent projects" />
     </Wrapper>
   );
 };
