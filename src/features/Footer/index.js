@@ -13,7 +13,7 @@ const Footer = () => {
       <UppercaseParagraph>Let's talk</UppercaseParagraph>
       <EmailParagraph>p.joanna93@gmail.com</EmailParagraph>
       <Paragraph body="I am a dedicated and passionate developer ready to tackle new challenges and bring creative solutions to your projects. Don't hesitate to contact me if you're in need of a hard-working and innovative developer to help bring ideas to life." />
-      <GithubIcon />
+      <GithubIcon color="#252525" />
       <LinkedinIcon />
     </StyledFooter>
   );
