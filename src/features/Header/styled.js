@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 66px;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80vh;
+width: 190vh;
 `;
 
 export const Image = styled.img`
@@ -31,6 +32,7 @@ export const HeadingTitle = styled.h1`
   line-height: 46px;
   letter-spacing: 0.05em;
   color: #252525;
+  margin: 0;
 `;
 
 export const Button = styled.button`
@@ -46,10 +48,16 @@ export const Button = styled.button`
   color: white;
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
+  margin-top: 20px;
 `;
 
 export const Container = styled.div``;
 
 export const Link = styled.a`
   text-decoration: none;
+  display: inline-block;
+
+  &:hover {
+    filter: brightness(110%);
+  }
 `;
