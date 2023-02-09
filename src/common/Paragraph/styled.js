@@ -9,6 +9,8 @@ export const StyledParagraph = styled.p`
   letter-spacing: 0.05em;
   color: ${({ color }) => color};
   max-width: 600px;
+  margin: 0 auto;
+  padding: 12px 0;
 `;
 
 export const UppercaseParagraph = styled(StyledParagraph)`
