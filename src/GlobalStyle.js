@@ -18,5 +18,6 @@ html {
     line-height: 1.5;
     font-size: 16px;
     margin: 0 auto;
+    padding: 400px;
   }
 `;
