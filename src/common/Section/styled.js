@@ -17,6 +17,15 @@ export const SectionContainer = styled.div`
   padding: 0 5px 10px 0;
 `;
 
+export const List = styled.ul`
+padding-left: 20px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex-wrap: nowrap;
+gap: 8px;
+`;
+
 export const ItemList = styled.li`
   font-family: "Inter";
   font-style: normal;
