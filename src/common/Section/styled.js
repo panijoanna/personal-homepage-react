@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const StyledSection = styled.section`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 8px;
+  height: 60vh;
   width: 190vh;
   background-color: #ffffff;
   margin: 0 auto;
