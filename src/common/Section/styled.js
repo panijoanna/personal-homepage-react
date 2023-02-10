@@ -16,3 +16,13 @@ export const StyledSection = styled.section`
 export const SectionContainer = styled.div`
   padding: 0 5px 10px 0;
 `;
+
+export const ItemList = styled.li`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #6e7e91;
+`;
