@@ -14,9 +14,7 @@ export const StyledSection = styled.section`
   border-radius: 4px;
 `;
 
-export const SectionContainer = styled.div`
-
-`;
+export const SectionContainer = styled.div``;
 
 export const List = styled.ul`
   padding-left: 20px;
