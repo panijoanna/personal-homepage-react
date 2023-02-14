@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledHeading = styled.h2`
+  display: flex;
+  justify-content: flex-start;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
