@@ -15,8 +15,7 @@ export const StyledSection = styled.section`
 `;
 
 export const SectionContainer = styled.div`
-  display: grid;
-  grid-template-rows: 1fr auto;
+
 `;
 
 export const List = styled.ul`
