@@ -8,6 +8,6 @@ export const StyledHeading = styled.h2`
   line-height: 36px;
   text-align: center;
   letter-spacing: 0.05em;
-  margin: 0 auto;
+  margin: 0;
   padding: 13px 0 8px 0;
 `;
