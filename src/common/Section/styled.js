@@ -21,10 +21,8 @@ export const SectionContainer = styled.div`
 
 export const List = styled.ul`
   padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 `;
 
