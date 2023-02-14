@@ -6,7 +6,6 @@ export const StyledSection = styled.section`
   align-items: flex-start;
   padding: 32px;
   gap: 8px;
-  height: 60vh;
   width: 190vh;
   background-color: #ffffff;
   margin: 0 auto;
