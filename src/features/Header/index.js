@@ -21,8 +21,7 @@ const Header = () => {
         <Paragraph
           body="
           👩‍💻Passionate about Frontend technologies (React). Frontend is always
-          evolving and presents new challenges, which makes it an exciting and
-          rewarding field to be in.🚀"
+          evolving and presents new challenges, which makes it an exciting field to be in.🚀"
           color="#6E7E91"
         />
         <Link href="mailto:p.joanna93@gmail.com">
