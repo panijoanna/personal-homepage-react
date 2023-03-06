@@ -1,23 +1,23 @@
-## Hi, I'm Joanna 👋 - Frontend Developer 🚀
+## 👋  Hi, I'm Joanna - Frontend Developer 
 
 ### ✅ Demo
 https://panijoanna.github.io/personal-homepage-react/
 
 📌 This project is not yet completed.
 
-### 💻 About me 
-💡 I'm interested in Frontend technologies
+### About me 
+- I'm interested in Frontend technologies
 
-📚 Passionate about React
+- Passionate about React
 
-💬 You can talk to me about anything, but especially about: computer games, coffee, Japanese tea, Japanese martial arts, cars and yoga
+- You can talk to me about anything, but especially about: computer games, coffee, Japanese tea, Japanese martial arts, cars and yoga
 
-### 🛠️ Skills
+### Skills
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,redux,git,github,webpack)](https://skillicons.dev)
-> Other
+- Other
 [![My Skills](https://skillicons.dev/icons?i=vscode,atom,nodejs,figma,bootstrap)](https://skillicons.dev)
 
-#### 🚀 next: 
+#### Next: 
 [![My Skills](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev)
 
 ### Available Scripts
