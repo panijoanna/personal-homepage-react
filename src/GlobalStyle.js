@@ -12,8 +12,8 @@ html {
   }
   
   .body {
-    background-color: #fbfbfe;
-    color: #8a899b;
+    background-color: ${({ theme }) => theme.color.whiteLilac};
+    color: ${({ theme }) => theme.color.manatee};
     font-family: "Poppins", sans-serif;
     line-height: 1.5;
     font-size: 16px;
