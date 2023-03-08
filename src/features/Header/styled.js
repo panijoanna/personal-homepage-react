@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-display: flex;
-justify-content: center;
-align-items: center;
-height: 80vh;
-width: 190vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 190vh;
 `;
 
 export const Image = styled.img`
@@ -21,7 +21,7 @@ export const StyledParagraph = styled.p`
   font-size: 12px;
   line-height: 130%;
   text-transform: uppercase;
-  color: #6e7e91;
+  color: ${({ theme }) => theme.color.gray};
 `;
 
 export const HeadingTitle = styled.h1`
@@ -31,7 +31,7 @@ export const HeadingTitle = styled.h1`
   font-size: 38px;
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #252525;
+  color: ${({ theme }) => theme.color.mineShaft};
   margin: 0;
 `;
 
@@ -44,9 +44,9 @@ export const Button = styled.button`
   gap: 16px;
   font-family: "Inter";
   font-weight: 600;
-  background: #0366d6;
-  color: white;
-  border: 1px solid rgba(209, 213, 218, 0.3);
+  background: ${({ theme }) => theme.color.blue};
+  color: ${({ theme }) => theme.color.white};
+  border: 1px solid ${({ theme }) => theme.color.athensGray};
   border-radius: 4px;
   margin-top: 20px;
 `;

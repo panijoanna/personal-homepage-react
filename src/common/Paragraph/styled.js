@@ -18,7 +18,7 @@ export const UppercaseParagraph = styled(StyledParagraph)`
   font-size: 12px;
   line-height: 130%;
   text-transform: uppercase;
-  color: #6e7e91;
+  color: ${({ theme }) => theme.color.gray};
 `;
 
 export const EmailParagraph = styled(StyledParagraph)`
@@ -28,9 +28,9 @@ export const EmailParagraph = styled(StyledParagraph)`
   font-size: 32px;
   line-height: 39px;
   letter-spacing: 0.05em;
-  color: #252525;
+  color: ${({ theme }) => theme.color.mineShaft};
 
   &:hover {
-    color: #0366d6;
+    color: ${({ theme }) => theme.color.blue};
   }
 `;

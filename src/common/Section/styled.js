@@ -7,10 +7,10 @@ export const StyledSection = styled.section`
   padding: 32px;
   gap: 8px;
   width: 190vh;
-  background-color: #ffffff;
+  background-color: ${({ theme }) => theme.color.white};
   margin: 0 auto;
-  box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
-    0px 16px 58px rgba(9, 10, 51, 0.03);
+  box-shadow: 0px -2px 50px ${({ theme }) => theme.color.athensGray},
+    0px 16px 58px ${({ theme }) => theme.color.lightGray};
   border-radius: 4px;
 `;
 
@@ -30,5 +30,5 @@ export const ItemList = styled.li`
   font-size: 18px;
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: #6e7e91;
+  color: ${({ theme }) => theme.color.gray};
 `;
