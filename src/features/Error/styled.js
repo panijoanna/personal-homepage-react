@@ -6,3 +6,5 @@ export const ErrorMessage = styled.h3`
   font-weight: 700;
   line-height: 29px;
 `;
+
+export const ErrorContainer = styled.div``;
