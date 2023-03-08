@@ -29,4 +29,8 @@ export const EmailParagraph = styled(StyledParagraph)`
   line-height: 39px;
   letter-spacing: 0.05em;
   color: #252525;
+
+  &:hover {
+    color: #0366d6;
+  }
 `;
