@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const PortfolioSection = styled.section``;
+export const PortfolioSection = styled.section`
+  margin: 0 auto;
+`;
 
 export const PortfolioContainer = styled.div`
   display: flex;
