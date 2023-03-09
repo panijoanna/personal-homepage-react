@@ -29,6 +29,7 @@ export const PortfolioHeading = styled.h3`
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
+  margin: 0;
 `;
 
 export const PortfolioParagraph = styled.p`
