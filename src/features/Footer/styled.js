@@ -6,6 +6,7 @@ export const StyledFooter = styled.footer`
   align-items: center;
   height: 80vh;
   width: 135vh;
+  margin-top: 20vh;
 `;
 
 export const FooterContainer = styled.div``;

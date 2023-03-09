@@ -6,7 +6,7 @@ import { StyledFooter, FooterContainer } from "./styled";
 import Paragraph from "../../common/Paragraph";
 import GithubIcon from "../Icons/GithubIcon";
 import LinkedinIcon from "../Icons/LinkedinIcon";
-import { Link } from "../Header/styled";
+import { Link } from "../../common/Link/styled";
 
 const Footer = () => {
   return (
