@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const PortfolioParagraph = styled.p`
+export const StyledPortfolioParagraph = styled.p`
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
