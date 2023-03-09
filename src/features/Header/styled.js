@@ -35,29 +35,5 @@ export const HeadingTitle = styled.h1`
   margin: 0;
 `;
 
-export const Button = styled.button`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 16px;
-  gap: 16px;
-  font-family: "Inter";
-  font-weight: 600;
-  background: ${({ theme }) => theme.color.blue};
-  color: ${({ theme }) => theme.color.white};
-  border: 1px solid ${({ theme }) => theme.color.athensGray};
-  border-radius: 4px;
-  margin-top: 20px;
-`;
-
 export const Container = styled.div``;
 
-export const Link = styled.a`
-  text-decoration: none;
-  display: inline-block;
-
-  &:hover {
-    filter: brightness(110%);
-  }
-`;
