@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+export const PortfolioSection = styled.section``;
+
 export const PortfolioContainer = styled.div`
   display: flex;
   justify-content: flex-start;
