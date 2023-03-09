@@ -4,7 +4,7 @@ export const PortfolioSection = styled.section`
   margin: 0 auto;
 `;
 
-export const PortfolioContainer = styled.div`
+export const TitleContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -13,7 +13,7 @@ export const PortfolioContainer = styled.div`
   padding-top: 72px;
 `;
 
-export const Wrap = styled.div`
+export const SkillsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -42,7 +42,7 @@ export const PortfolioParagraph = styled.p`
   color: ${({ theme }) => theme.color.gray};
 `;
 
-export const PortfolioBox = styled.div`
+export const Tile = styled.div`
   color: ${({ theme }) => theme.color.white};
   width: 95vh;
   height: 322px;
