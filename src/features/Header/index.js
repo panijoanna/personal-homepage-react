@@ -1,15 +1,10 @@
 import photo from "./photo.jpg";
-import {
-  Image,
-  Button,
-  Container,
-  Link,
-  HeadingTitle,
-  StyledHeader,
-} from "./styled";
+import { Image, Container, HeadingTitle, StyledHeader } from "./styled";
 import MessageIcon from "../Icons/MessageIcon";
 import Paragraph from "../../common/Paragraph/index";
 import { UppercaseParagraph } from "../../common/Paragraph/styled";
+import { Button } from "../../common/Button/styled";
+import { Link } from "../../common/Link/styled";
 
 const Header = () => {
   return (

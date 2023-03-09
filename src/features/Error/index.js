@@ -1,6 +1,8 @@
 import Heading from "../../common/Heading";
 import { ErrorContainer, ErrorMessage } from "./styled";
 import ErrorIcon from "../Icons/ErrorIcon";
+import { Button } from "../../common/Button/styled";
+import { Link } from "../../common/Link/styled";
 
 const Error = () => {
   return (
