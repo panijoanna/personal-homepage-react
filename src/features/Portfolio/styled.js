@@ -45,7 +45,7 @@ export const PortfolioParagraph = styled.p`
   line-height: 25px;
   letter-spacing: 5%;
   color: ${({ theme }) => theme.color.gray};
-  margin-top: 24px;
+  margin-top: 12px;
 `;
 
 export const Tile = styled.div`
