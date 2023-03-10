@@ -51,7 +51,7 @@ export const PortfolioParagraph = styled.p`
 export const Tile = styled.div`
   color: ${({ theme }) => theme.color.white};
   width: 95vh;
-  height: 360px;
+  height: 390px;
   border: 6px solid ${({ theme }) => theme.color.athensGray};
   box-shadow: 0px -2px 50px ${({ theme }) => theme.color.athensGray};
     0px 16px 58px ${({ theme }) => theme.color.lightGray};
