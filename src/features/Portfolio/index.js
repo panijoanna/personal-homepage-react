@@ -13,7 +13,7 @@ import Error from "../Error";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { StyledLink } from "./styled";
 
 const Portfolio = () => {
   const [repos, setRepos] = useState([]);
@@ -46,14 +46,14 @@ const Portfolio = () => {
             <PortfolioParagraph>{repo.description}</PortfolioParagraph>
             <PortfolioParagraph>
               Demo:
-              <Link href={repo.homepage} target="_blank">
+              <StyledLink href={repo.homepage} target="_blank">
                 {repo.homepage}
-              </Link>
+              </StyledLink>
               <br />
               Code:
-              <Link href={repo.html_url} target="_blank">
+              <StyledLink href={repo.html_url} target="_blank">
                 {repo.html_url}
-              </Link>
+              </StyledLink>
             </PortfolioParagraph>
           </Tile>
         ))}
