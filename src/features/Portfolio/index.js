@@ -9,28 +9,13 @@ import {
   PortfolioSection,
   SkillsContainer,
 } from "./styled";
-import Error from "../Error";
-import { useState } from "react";
-import { useEffect } from "react";
-import axios from "axios";
+import useRepos from "./useRepos";
 import { StyledLink } from "./styled";
 
 const Portfolio = () => {
-  const [repos, setRepos] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get(
-          "https://api.github.com/users/panijoanna/repos"
-        );
-        setRepos(response.data);
-      } catch (error) {
-        <Error />;
-      }
-    };
-    fetchData();
-  }, []);
+  
+const {repos} = useRepos();
+  
 
   return (
     <PortfolioSection>
