@@ -50,7 +50,7 @@ export const Tile = styled.div`
   box-shadow: 0px -2px 50px ${({ theme }) => theme.color.athensGray};
     0px 16px 58px ${({ theme }) => theme.color.lightGray};
   border-radius: 4px;
-  padding: 56px;
+  padding: 30px;
 
   &:hover {
     border: 6px solid ${({ theme }) => theme.color.tropicalBlue};
