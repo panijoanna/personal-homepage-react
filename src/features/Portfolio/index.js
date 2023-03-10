@@ -45,12 +45,13 @@ const Portfolio = () => {
             <PortfolioHeading>{repo.name}</PortfolioHeading>
             <PortfolioParagraph>{repo.description}</PortfolioParagraph>
             <PortfolioParagraph>
-              Demo:{"\n"}
+              Demo:
               <StyledLink href={repo.homepage} target="_blank">
                 {repo.homepage}
               </StyledLink>
-              <br />
-              Code:{"\n"}
+            </PortfolioParagraph>
+            <PortfolioParagraph>
+              Code:
               <StyledLink href={repo.html_url} target="_blank">
                 {repo.html_url}
               </StyledLink>
