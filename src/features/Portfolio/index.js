@@ -43,6 +43,7 @@ const Portfolio = () => {
           <Tile key={repo.id}>
             <PortfolioHeading>{repo.name}</PortfolioHeading>
             <PortfolioParagraph>{repo.description}</PortfolioParagraph>
+            <PortfolioParagraph> Demo: {repo.homepage}</PortfolioParagraph>
             <PortfolioParagraph> Code: {repo.html_url}</PortfolioParagraph>
           </Tile>
         ))}
