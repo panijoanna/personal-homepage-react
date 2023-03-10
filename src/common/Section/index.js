@@ -4,7 +4,7 @@ import { StyledHeading } from "../Heading/styled";
 const Section = ({ title, array }) => {
   return (
     <StyledSection>
-      <StyledHeading>{title}</StyledHeading>
+      <StyledHeading underline>{title}</StyledHeading>
       <SectionContainer>
         <List>
           {array.map((element) => (
