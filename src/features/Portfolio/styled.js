@@ -34,6 +34,10 @@ export const PortfolioHeading = styled.h3`
 `;
 
 export const PortfolioParagraph = styled.p`
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 5px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
