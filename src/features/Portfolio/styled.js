@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const PortfolioSection = styled.section`
   margin: 0 auto;
@@ -55,4 +56,9 @@ export const Tile = styled.div`
   &:hover {
     border: 6px solid ${({ theme }) => theme.color.tropicalBlue};
   }
+`;
+
+export const StyledLink = styled(Link)`
+  color: ${({ theme }) => theme.color.blue};
+  text-decoration: none;
 `;
