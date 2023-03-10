@@ -13,6 +13,7 @@ import Error from "../Error";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const [repos, setRepos] = useState([]);
@@ -43,8 +44,17 @@ const Portfolio = () => {
           <Tile key={repo.id}>
             <PortfolioHeading>{repo.name}</PortfolioHeading>
             <PortfolioParagraph>{repo.description}</PortfolioParagraph>
-            <PortfolioParagraph> Demo: {repo.homepage}</PortfolioParagraph>
-            <PortfolioParagraph> Code: {repo.html_url}</PortfolioParagraph>
+            <PortfolioParagraph>
+              Demo:
+              <Link href={repo.homepage} target="_blank">
+                {repo.homepage}
+              </Link>
+              <br />
+              Code:
+              <Link href={repo.html_url} target="_blank">
+                {repo.html_url}
+              </Link>
+            </PortfolioParagraph>
           </Tile>
         ))}
       </SkillsContainer>
