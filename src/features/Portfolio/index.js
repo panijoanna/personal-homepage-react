@@ -13,9 +13,7 @@ import useRepos from "./useRepos";
 import { StyledLink } from "./styled";
 
 const Portfolio = () => {
-  
-const {repos} = useRepos();
-  
+  const { repos } = useRepos();
 
   return (
     <PortfolioSection>
