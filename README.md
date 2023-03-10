@@ -15,7 +15,7 @@ https://panijoanna.github.io/personal-homepage-react/
 ### Skills
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,redux,git,github,webpack)](https://skillicons.dev)
 ### Other
-[![My Skills](https://skillicons.dev/icons?i=vscode,atom,nodejs,figma,bootstrap)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,atom,nodejs,figma,bootstrap, ps)](https://skillicons.dev)
 
 #### Next: 
 [![My Skills](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev)
