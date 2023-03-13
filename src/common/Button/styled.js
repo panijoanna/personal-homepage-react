@@ -13,5 +13,5 @@ export const Button = styled.button`
   color: ${({ theme }) => theme.color.white};
   border: 1px solid ${({ theme }) => theme.color.athensGray};
   border-radius: 4px;
-  margin-top: 20px;
+  margin: 0 auto;
 `;
