@@ -1,5 +1,5 @@
 import { StyledParagraph } from "../../common/Paragraph/styled";
-import LoaderIcon from "../Icons/LoaderIcon";
+import { Icon } from "./styled";
 import { Wrapper } from "../../common/Wrapper/styled";
 
 const Loader = () => {
