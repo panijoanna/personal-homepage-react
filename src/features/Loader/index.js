@@ -6,7 +6,7 @@ const Loader = () => {
   return (
     <Wrapper>
       <StyledParagraph body="Please, wait, projects are being loaded..." />
-      <LoaderIcon />
+      <Icon />
     </Wrapper>
   );
 };
