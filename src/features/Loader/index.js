@@ -1,11 +1,11 @@
-import { StyledParagraph } from "../../common/Paragraph/styled";
+import Paragraph from "../../common/Paragraph";
 import { Icon } from "./styled";
 import { Wrapper } from "../../common/Wrapper/styled";
 
 const Loader = () => {
   return (
     <Wrapper>
-      <StyledParagraph body="Please, wait, projects are being loaded..." />
+      <Paragraph body="Please, wait, projects are being loaded..." />
       <Icon />
     </Wrapper>
   );
