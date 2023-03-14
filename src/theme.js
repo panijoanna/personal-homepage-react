@@ -9,6 +9,7 @@ export const theme = {
     whiteLilac: "#fbfbfe",
     manatee: "#8a899b",
     tropicalBlue: "#CDE0F7",
+    mercury: "#E5E5E5",
   },
   breakpoint: {
     mobileDevice: 767,
