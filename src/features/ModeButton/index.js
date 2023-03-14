@@ -1,10 +1,9 @@
-import { ThemeButton } from "./styled";
-
+import { ModeCircle, ThemeButton, Toggle } from "./styled";
 
 const ModeButton = () => {
     return (
         <ThemeButton>
-            
+                <Toggle/>
         </ThemeButton>
     );
 };
