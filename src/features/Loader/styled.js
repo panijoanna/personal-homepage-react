@@ -10,3 +10,11 @@ export const Icon = styled(LoaderIcon)`
     }
   }
 `;
+
+export const LoadingWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+`;
