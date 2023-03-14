@@ -17,4 +17,5 @@ export const LoadingWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  padding-top: 50px;
 `;
