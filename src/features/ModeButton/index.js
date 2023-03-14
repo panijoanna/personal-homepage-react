@@ -1,11 +1,11 @@
-import { ModeCircle, ThemeButton, Toggle } from "./styled";
+import { ThemeButton, Toggle } from "./styled";
 
 const ModeButton = () => {
-    return (
-        <ThemeButton>
-                <Toggle/>
-        </ThemeButton>
-    );
+  return (
+    <ThemeButton>
+      <Toggle />
+    </ThemeButton>
+  );
 };
 
 export default ModeButton;
