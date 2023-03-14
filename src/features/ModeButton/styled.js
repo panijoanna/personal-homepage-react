@@ -17,3 +17,13 @@ export const Toggle = styled(ToggleIcon)`
   width: 18px;
   height: 18px;
 `;
+
+export const ThemeTitle = styled.span`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: ${({ theme }) => theme.color.gray};
+`;
