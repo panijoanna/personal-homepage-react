@@ -1,13 +1,13 @@
 import Paragraph from "../../common/Paragraph";
 import { Icon } from "./styled";
-import { Wrapper } from "../../common/Wrapper/styled";
+import { LoadingWrapper } from "./styled";
 
 const Loader = () => {
   return (
-    <Wrapper>
+    <LoadingWrapper>
       <Paragraph body="Please, wait, projects are being loaded..." />
       <Icon />
-    </Wrapper>
+    </LoadingWrapper>
   );
 };
 
