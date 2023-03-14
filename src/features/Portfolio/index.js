@@ -12,9 +12,10 @@ import {
 import useRepos from "./useRepos";
 import { StyledLink } from "./styled";
 import Loader from "../Loader";
+import Error from "../Error";
 
 const Portfolio = () => {
-  const { repos, isLoading } = useRepos();
+  const { repos, isLoading, error } = useRepos();
 
   return (
     <PortfolioSection>
@@ -25,6 +26,8 @@ const Portfolio = () => {
       </TitleContainer>
       {isLoading ? (
         <Loader />
+      ) : error ? (
+        <Error />
       ) : (
         <SkillsContainer>
           {repos.map((repo) => (
