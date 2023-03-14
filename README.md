@@ -10,7 +10,7 @@ https://panijoanna.github.io/personal-homepage-react/
 
 * You can usually find me with a cup of coffee in hand, or trying out new flavors of Japanese and Chinese teas.
 
-* I love japanese martial arts especially karate for what it teaches me in life. Through training, I have learned the importance of **setting goals** and working tirelessly towards **achieving** them. The **discipline** and determination required in karate have helped me develop these skills not only in martial arts but also in other areas of my life.
+* I love Japanese martial arts especially karate for what it teaches me in life. Through training, I have learned the importance of **setting goals** and working tirelessly towards **achieving** them. The **discipline** and determination required in karate have helped me develop these skills not only in martial arts but also in other areas of my life.
 
 ### Skills
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,redux,git,github)](https://skillicons.dev)
