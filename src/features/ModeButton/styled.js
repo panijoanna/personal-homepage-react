@@ -18,6 +18,8 @@ export const Toggle = styled(ToggleIcon)`
   height: 18px;
 `;
 
+export const ThemeWrapper = styled.div``;
+
 export const ThemeTitle = styled.span`
   font-family: "Inter";
   font-style: normal;
