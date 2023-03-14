@@ -10,7 +10,7 @@ export const ThemeButton = styled.button`
 `;
 
 export const Toggle = styled(ToggleIcon)`
-display: flex;
+  display: flex;
   color: white;
   background-color: ${({ theme }) => theme.color.gray};
   border-radius: 50%;
