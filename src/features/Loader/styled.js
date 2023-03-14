@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import LoaderIcon from "../Icons/LoaderIcon";
+import {ReactComponent as LoaderIcon} from "./loaderIcon.svg";
 
 export const Icon = styled(LoaderIcon)`
-  animation: rotete 1s linear infinite;
+  animation: rotate 1s linear infinite;
 
   @keyframes rotate {
     100% {
