@@ -1,6 +1,6 @@
 import { ThemeButton, ThemeWrapper, Toggle, ThemeTitle } from "./styled";
 
-const ModeButton = () => {
+const BackgroundSwitcher = () => {
   return (
     <ThemeWrapper>
       <ThemeTitle>light mode</ThemeTitle>
@@ -11,4 +11,4 @@ const ModeButton = () => {
   );
 };
 
-export default ModeButton;
+export default BackgroundSwitcher;
