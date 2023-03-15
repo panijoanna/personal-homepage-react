@@ -14,4 +14,8 @@ export const Button = styled.button`
   border: 1px solid ${({ theme }) => theme.color.athensGray};
   border-radius: 4px;
   margin: 0 auto;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    margin-top: 24px;
+  }
 `;
