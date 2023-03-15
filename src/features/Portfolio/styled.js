@@ -12,6 +12,12 @@ export const TitleContainer = styled.div`
   align-items: center;
   height: 52vh;
   padding-top: 72px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    padding: 0;
+    height: 230px;
+    justify-content: center;
+  }
 `;
 
 export const SkillsContainer = styled.div`
@@ -20,6 +26,15 @@ export const SkillsContainer = styled.div`
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 32px;
   grid-row-gap: 32px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    width: 270px;
+    align-items: center;
+  }
 `;
 
 export const PortfolioHeading = styled.h3`
@@ -31,6 +46,11 @@ export const PortfolioHeading = styled.h3`
   font-style: normal;
   font-weight: 700;
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    font-size: 16px;
+    letter-spacing: 0.02rem;
+  }
 `;
 
 export const PortfolioParagraph = styled.p`
@@ -46,6 +66,16 @@ export const PortfolioParagraph = styled.p`
   letter-spacing: 5%;
   color: ${({ theme }) => theme.color.gray};
   margin-top: 12px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+  }
 `;
 
 export const Tile = styled.div`
@@ -61,6 +91,13 @@ export const Tile = styled.div`
   &:hover {
     border: 6px solid ${({ theme }) => theme.color.tropicalBlue};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%;
+   }
 `;
 
 export const StyledLink = styled(Link)`
@@ -71,4 +108,10 @@ export const StyledLink = styled(Link)`
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.05em;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    max-width: 100%;
+    letter-spacing: 0.01rem;
+    font-size: 12px;
+  }
 `;
