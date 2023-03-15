@@ -18,4 +18,8 @@ export const StyledHeading = styled.h2`
     css`
       border-bottom: solid ${({ theme }) => theme.color.lightGray};
     `}
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    font-size: 18px;
+  }
 `;
