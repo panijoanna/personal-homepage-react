@@ -18,7 +18,4 @@ export const Toggle = styled(ToggleIcon)`
   height: 18px;
 `;
 
-export const ThemeWrapper = styled.div`
-
-`;
-
+export const ThemeWrapper = styled.div``;
