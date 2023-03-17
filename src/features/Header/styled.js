@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 80px;
   height: 80vh;
   width: 190vh;
 
@@ -23,15 +23,10 @@ export const StyledHeader = styled.header`
 `;
 
 export const Image = styled.img`
+  max-width: 300px;
+  height: 300px;
   border-radius: 50%;
-  max-width: 398px;
-  padding: 50px;
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    max-width: 250px;
-    width: 130px;
-    padding: 0;
-  }
+  margin: 0 0 auto auto;
 `;
 
 export const StyledParagraph = styled.p`
@@ -59,4 +54,7 @@ export const HeadingTitle = styled.h1`
   }
 `;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  padding-left: 40px;
+`;
+
