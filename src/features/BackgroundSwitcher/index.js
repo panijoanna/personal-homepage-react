@@ -1,4 +1,4 @@
-import { ThemeButton, ThemeWrapper, Toggle, ThemeTitle } from "./styled";
+import { ThemeButton, ThemeWrapper, Toggle } from "./styled";
 
 const BackgroundSwitcher = () => {
   return (
