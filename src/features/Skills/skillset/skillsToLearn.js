@@ -3,5 +3,5 @@ export const skillsToLearn = [
   "Unit tests",
   "JS classes",
   "React context",
-  "React Query",
+  "TanStack Query",
 ];
