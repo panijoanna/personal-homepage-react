@@ -3,15 +3,16 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 80px;
   height: 80vh;
   width: 190vh;
 `;
 
 export const Image = styled.img`
+  max-width: 300px;
+  height: 300px;
   border-radius: 50%;
-  max-width: 398px;
-  padding: 50px;
+  margin: 0 0 auto auto;
 `;
 
 export const StyledParagraph = styled.p`
@@ -35,5 +36,6 @@ export const HeadingTitle = styled.h1`
   margin: 0;
 `;
 
-export const Container = styled.div``;
-
+export const Container = styled.div`
+  padding-left: 40px;
+`;
