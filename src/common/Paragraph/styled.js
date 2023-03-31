@@ -36,6 +36,8 @@ export const EmailParagraph = styled(StyledParagraph)`
   font-size: 32px;
   line-height: 39px;
   letter-spacing: 0.05em;
+  width: 30px;
+  margin: 0;
   color: ${({ theme }) => theme.color.mineShaft};
 
   &:hover {
