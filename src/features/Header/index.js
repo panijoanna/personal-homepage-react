@@ -5,7 +5,7 @@ import Paragraph from "../../common/Paragraph/index";
 import { UppercaseParagraph } from "../../common/Paragraph/styled";
 import { Button } from "../../common/Button/styled";
 import { Link } from "../../common/Link/styled";
-import BackgroundSwitcher from "../BackgroundSwitcher";
+import ThemeSwitcher from "../ThemeSwitcher";
 
 const Header = () => {
   return (
@@ -27,7 +27,7 @@ const Header = () => {
           </Button>
         </Link>
       </Container>
-      <BackgroundSwitcher />
+      <ThemeSwitcher />
     </StyledHeader>
   );
 };
