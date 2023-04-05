@@ -13,7 +13,7 @@ export const StyledParagraph = styled.p`
   padding: 12px 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 17px;
+    font-size: 16px;
   }
 `;
 
@@ -25,7 +25,7 @@ export const UppercaseParagraph = styled(StyledParagraph)`
   color: ${({ theme }) => theme.color.gray};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    padding-top: 48px;
+    font-size: 16px;
   }
 `;
 
@@ -46,6 +46,5 @@ export const EmailParagraph = styled(StyledParagraph)`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: 18px;
-    padding: 0;
   }
 `;

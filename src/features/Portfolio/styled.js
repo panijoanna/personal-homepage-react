@@ -3,20 +3,21 @@ import { Link } from "react-router-dom";
 
 export const PortfolioSection = styled.section`
   margin: 0 auto;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
+    margin: auto;
+    width: 100%;
+  }
 `;
 
 export const TitleContainer = styled.div`
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  height: 52vh;
-  padding-top: 72px;
+  padding: 50px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    padding: 0;
-    height: 230px;
-    justify-content: center;
+    padding: 10px;
   }
 `;
 
@@ -26,14 +27,15 @@ export const SkillsContainer = styled.div`
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 32px;
   grid-row-gap: 32px;
+  margin: 0 auto;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-width: 100%;
-    width: 270px;
-    align-items: center;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -48,8 +50,8 @@ export const PortfolioHeading = styled.h3`
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 16px;
-    letter-spacing: 0.02rem;
+    font-size: 18px;
+    padding-top: 20px;
   }
 `;
 
@@ -68,13 +70,9 @@ export const PortfolioParagraph = styled.p`
   margin-top: 12px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 14px;
-    line-height: 17px;
-    display: flex;
-    letter-spacing: 0.05em;
+    font-size: 16px;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0;
+    align-items: start;
   }
 `;
 
@@ -93,11 +91,19 @@ export const Tile = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-   padding: 20px;
-   display: flex;
-   flex-wrap: wrap;
-   max-width: 100%;
-   }
+    margin: 0 32px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
+    margin: auto;
+    width: 80%;
+  }
 `;
 
 export const StyledLink = styled(Link)`
@@ -110,8 +116,6 @@ export const StyledLink = styled(Link)`
   letter-spacing: 0.05em;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    max-width: 100%;
-    letter-spacing: 0.01rem;
     font-size: 12px;
   }
 `;
