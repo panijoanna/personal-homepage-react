@@ -27,5 +27,9 @@ export const ThemeToggleIcon = styled(ToggleIcon)`
 `;
 
 export const ThemeWrapper = styled.div`
-  height: 25px;
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    display: flex;
+    justify-content: flex-end;
+    order: -1;
+  }
 `;
