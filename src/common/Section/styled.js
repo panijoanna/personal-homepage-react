@@ -6,23 +6,17 @@ export const StyledSection = styled.section`
   justify-content: space-between;
   padding: 32px;
   gap: 8px;
-  width: 190vh;
+  width: 80%;
+  max-width: 100%;
   background-color: ${({ theme }) => theme.color.white};
-  margin: 0 auto;
+  margin: 10px auto;
   box-shadow: 0px -2px 50px ${({ theme }) => theme.color.athensGray},
     0px 16px 58px ${({ theme }) => theme.color.lightGray};
   border-radius: 4px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 16px;
-    gap: 12px;
-    max-width: 100%;
-    width: 270px;
-    margin: 0 auto;
+    font-size: 18px;
+    margin: auto;
   }
 `;
 
@@ -35,8 +29,7 @@ export const List = styled.ul`
   gap: 8px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 `;
 
