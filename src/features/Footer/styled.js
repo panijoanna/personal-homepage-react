@@ -4,21 +4,18 @@ export const StyledFooter = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
   width: 135vh;
-  margin-top: 20vh;
+  padding: 50px 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 100%;
-    width: 270px;
-    margin: 50px auto;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.05em;
-    height: 450px;
+    width: 100%;
+    padding: 32px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
+    margin: auto;
+    width: 80%;
+    align-items: start;
   }
 `;
 
