@@ -4,7 +4,6 @@ export const Button = styled.button`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   padding: 12px 16px;
   gap: 16px;
   font-family: "Inter";
@@ -13,9 +12,5 @@ export const Button = styled.button`
   color: ${({ theme }) => theme.color.white};
   border: 1px solid ${({ theme }) => theme.color.athensGray};
   border-radius: 4px;
-  margin: 0 auto;
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    margin-top: 24px;
-  }
+  margin-top: 15px;
 `;
