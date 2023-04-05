@@ -20,6 +20,6 @@ export const StyledHeading = styled.h2`
     `}
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 `;
