@@ -35,7 +35,7 @@ export const Image = styled.img`
 export const StyledParagraph = styled.p`
   font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: ${({ theme }) => theme.fontWeights.large};
   font-size: 12px;
   line-height: 130%;
   text-transform: uppercase;
@@ -45,7 +45,7 @@ export const StyledParagraph = styled.p`
 export const HeadingTitle = styled.h1`
   font-family: "Inter";
   font-style: normal;
-  font-weight: 900;
+  font-weight: ${({ theme }) => theme.fontWeights.bold};
   font-size: 38px;
   line-height: 46px;
   letter-spacing: 0.05em;

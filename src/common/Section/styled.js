@@ -36,7 +36,7 @@ export const List = styled.ul`
 export const ItemList = styled.li`
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: ${({ theme }) => theme.fontWeights.regular};
   font-size: 18px;
   line-height: 140%;
   letter-spacing: 0.05em;

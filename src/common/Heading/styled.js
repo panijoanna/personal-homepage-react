@@ -5,7 +5,7 @@ export const StyledHeading = styled.h2`
   justify-content: flex-start;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 900;
+  font-weight: ${({ theme }) => theme.fontWeights.bold};
   font-size: 30px;
   line-height: 36px;
   text-align: center;
