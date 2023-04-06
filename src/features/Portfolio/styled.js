@@ -46,7 +46,7 @@ export const PortfolioHeading = styled.h3`
   letter-spacing: 0.05em;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: ${({ theme }) => theme.fontWeights.large};
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
@@ -62,7 +62,7 @@ export const PortfolioParagraph = styled.p`
   gap: 5px;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: ${({ theme }) => theme.fontWeights.regular};
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 5%;
@@ -111,7 +111,7 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: ${({ theme }) => theme.fontWeights.regular};
   line-height: 140%;
   letter-spacing: 0.05em;
 
