@@ -15,4 +15,10 @@ export const theme = {
     mobileDevice: 767,
     tabletDevice: 1024,
   },
+  fontWeights: {
+    regular: 400,
+    medium: 600,
+    large: 700,
+    bold: 900,
+  },
 };
