@@ -22,7 +22,8 @@ export const theme = {
     bold: 900,
   },
   fontSizes: {
-    xsmall: "12px",
+    xxsmall: "12px",
+    xsmall: "16px",
     small: "18px",
     medium: "20px",
     large: "24px",
