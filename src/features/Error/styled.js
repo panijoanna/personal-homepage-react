@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ErrorMessage = styled.h3`
-  font-size: 24px;
+  font-size: ${({ theme }) => theme.fontSizes.large};
   color: ${({ theme }) => theme.color.mineShaft};
   font-weight: ${({ theme }) => theme.fontWeights.large};
   line-height: 29px;

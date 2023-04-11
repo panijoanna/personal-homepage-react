@@ -36,7 +36,7 @@ export const StyledParagraph = styled.p`
   font-family: "Inter";
   font-style: normal;
   font-weight: ${({ theme }) => theme.fontWeights.large};
-  font-size: 12px;
+  font-size: ${({ theme }) => theme.fontSizes.xxsmall};
   line-height: 130%;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.gray};
@@ -46,14 +46,14 @@ export const HeadingTitle = styled.h1`
   font-family: "Inter";
   font-style: normal;
   font-weight: ${({ theme }) => theme.fontWeights.bold};
-  font-size: 38px;
+  font-size: ${({ theme }) => theme.fontSizes.xxlarge};
   line-height: 46px;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.mineShaft};
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 18px;
+    font-size: ${({ theme }) => theme.fontSizes.small};
   }
 `;
 

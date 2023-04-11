@@ -15,7 +15,7 @@ export const StyledSection = styled.section`
   border-radius: 4px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 18px;
+    font-size: ${({ theme }) => theme.fontSizes.small};
     margin: auto;
   }
 `;
@@ -37,12 +37,12 @@ export const ItemList = styled.li`
   font-family: "Inter";
   font-style: normal;
   font-weight: ${({ theme }) => theme.fontWeights.regular};
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSizes.small};
   line-height: 140%;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.gray};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 14px;
+    font-size: ${({ theme }) => theme.fontSizes.xxsmall};
   }
 `;

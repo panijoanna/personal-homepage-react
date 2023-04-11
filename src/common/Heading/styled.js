@@ -6,7 +6,7 @@ export const StyledHeading = styled.h2`
   font-family: "Inter";
   font-style: normal;
   font-weight: ${({ theme }) => theme.fontWeights.bold};
-  font-size: 30px;
+  font-size: ${({ theme }) => theme.fontSizes.xlarge};
   line-height: 36px;
   text-align: center;
   letter-spacing: 0.05em;
@@ -20,6 +20,6 @@ export const StyledHeading = styled.h2`
     `}
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSizes.xsmall};
   }
 `;
