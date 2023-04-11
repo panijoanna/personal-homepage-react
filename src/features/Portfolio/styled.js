@@ -41,7 +41,7 @@ export const SkillsContainer = styled.div`
 
 export const PortfolioHeading = styled.h3`
   color: ${({ theme }) => theme.color.blue};
-  font-size: 24px;
+  font-size: ${({ theme }) => theme.fontSizes.large};
   line-height: 29px;
   letter-spacing: 0.05em;
   font-family: "Inter";
@@ -50,7 +50,7 @@ export const PortfolioHeading = styled.h3`
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 18px;
+    font-size: ${({ theme }) => theme.fontSizes.small};
     padding-top: 20px;
   }
 `;
@@ -63,14 +63,14 @@ export const PortfolioParagraph = styled.p`
   font-family: "Inter";
   font-style: normal;
   font-weight: ${({ theme }) => theme.fontWeights.regular};
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSizes.small};
   line-height: 25px;
   letter-spacing: 5%;
   color: ${({ theme }) => theme.color.gray};
   margin-top: 12px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSizes.xsmall};
     flex-direction: column;
     align-items: start;
   }
@@ -116,6 +116,6 @@ export const StyledLink = styled(Link)`
   letter-spacing: 0.05em;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 12px;
+    font-size: ${({ theme }) => theme.fontSizes.xxsmall};
   }
 `;

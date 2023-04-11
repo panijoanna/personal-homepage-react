@@ -21,4 +21,13 @@ export const theme = {
     large: 700,
     bold: 900,
   },
+  fontSizes: {
+    xxsmall: "12px",
+    xsmall: "16px",
+    small: "18px",
+    medium: "20px",
+    large: "24px",
+    xlarge: "30px",
+    xxlarge: "38px",
+  },
 };

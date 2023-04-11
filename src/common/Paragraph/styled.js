@@ -4,7 +4,7 @@ export const StyledParagraph = styled.p`
   font-family: "Inter";
   font-style: normal;
   font-weight: ${({ theme }) => theme.fontWeights.regular};
-  font-size: 20px;
+  font-size: ${({ theme }) => theme.fontSizes.medium};
   line-height: 140%;
   letter-spacing: 0.05em;
   color: ${({ color }) => color};
@@ -13,19 +13,19 @@ export const StyledParagraph = styled.p`
   padding: 12px 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSizes.xsmall};
   }
 `;
 
 export const UppercaseParagraph = styled(StyledParagraph)`
   font-weight: ${({ theme }) => theme.fontWeights.large};
-  font-size: 12px;
+  font-size: ${({ theme }) => theme.fontSizes.xxsmall};
   line-height: 130%;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.gray};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSizes.xsmall};
   }
 `;
 
@@ -33,7 +33,7 @@ export const EmailParagraph = styled(StyledParagraph)`
   font-family: "Inter";
   font-style: normal;
   font-weight: ${({ theme }) => theme.fontWeights.bold};
-  font-size: 32px;
+  font-size: ${({ theme }) => theme.fontSizes.xlarge};
   line-height: 39px;
   letter-spacing: 0.05em;
   width: 30px;
@@ -45,6 +45,6 @@ export const EmailParagraph = styled(StyledParagraph)`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    font-size: 18px;
+    font-size: ${({ theme }) => theme.fontSizes.small};
   }
 `;
