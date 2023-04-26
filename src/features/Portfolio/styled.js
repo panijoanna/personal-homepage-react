@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { ReactComponent as Icon } from "../Icons/github.svg";
 
 export const PortfolioSection = styled.section`
   margin: 0 auto;
@@ -118,4 +119,10 @@ export const StyledLink = styled(Link)`
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: ${({ theme }) => theme.fontSizes.xxsmall};
   }
+`;
+
+export const GithubIcon = styled(Icon)`
+  fill: ${({ theme }) => theme.color.blue};
+  width: 40px;
+  height: 40px;
 `;
