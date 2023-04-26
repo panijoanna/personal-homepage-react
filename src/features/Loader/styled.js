@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import { ReactComponent as LoaderIcon } from "./loaderIcon.svg";
+import { ReactComponent as Icon } from "../Icons/spinner.svg";
 
-export const Icon = styled(LoaderIcon)`
+export const LoaderIcon = styled(Icon)`
   animation: rotate 1s linear infinite;
+  color: ${({ theme }) => theme.color.blue};
 
   @keyframes rotate {
     100% {
