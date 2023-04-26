@@ -28,9 +28,17 @@ export const GithubIcon = styled(Github)`
   height: 48px;
   margin: 56px 24px 0 0;
   color: ${({ theme }) => theme.color.mineShaft};
+
+  &:hover {
+    color: ${({ theme }) => theme.color.blue};
+  }
 `;
 
 export const LinkedinIcon = styled(Linkedin)`
   width: 48px;
   color: ${({ theme }) => theme.color.mineShaft};
+
+  &:hover {
+    color: ${({ theme }) => theme.color.blue};
+  }
 `;
