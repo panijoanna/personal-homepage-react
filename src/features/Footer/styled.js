@@ -26,6 +26,7 @@ export const FooterContainer = styled.div``;
 export const GithubIcon = styled(Github)`
   width: 48px;
   height: 48px;
+  margin: 56px 24px 0 0;
   color: ${({ theme }) => theme.color.mineShaft};
 `;
 
