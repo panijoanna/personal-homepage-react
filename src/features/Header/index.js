@@ -1,11 +1,11 @@
 import photo from "./photo.jpg";
 import { Image, Container, HeadingTitle, StyledHeader } from "./styled";
-import MessageIcon from "../Icons/MessageIcon";
 import Paragraph from "../../common/Paragraph/index";
 import { UppercaseParagraph } from "../../common/Paragraph/styled";
 import { Button } from "../../common/Button/styled";
 import { Link } from "../../common/Link/styled";
 import ThemeSwitcher from "../ThemeSwitcher";
+import {ReactComponent as MessageIcon} from "../Icons/message.svg";
 
 const Header = () => {
   return (

@@ -1,4 +1,3 @@
-import GithubIcon from "../Icons/GithubIcon";
 import Heading from "../../common/Heading";
 import Paragraph from "../../common/Paragraph";
 import {
@@ -13,6 +12,7 @@ import useRepos from "./useRepos";
 import { StyledLink } from "./styled";
 import Loader from "../Loader";
 import Error from "../Error";
+import {GithubIcon} from "./styled";
 
 const Portfolio = () => {
   const { repos, isLoading, error } = useRepos();
