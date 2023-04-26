@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { ReactComponent as ToggleIcon } from "./toggleicon.svg";
+import { ReactComponent as ToggleIcon } from "../Icons/sun.svg";
 
 export const ThemeButton = styled.button`
   color: ${({ theme }) => theme.color.mercury};
