@@ -14,6 +14,7 @@ export const theme = {
   breakpoint: {
     mobileDevice: 767,
     tabletDevice: 1024,
+    maxDevice: 1280,
   },
   fontWeights: {
     regular: 400,
