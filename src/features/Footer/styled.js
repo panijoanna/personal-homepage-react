@@ -3,21 +3,17 @@ import { ReactComponent as Github } from "../Icons/github.svg";
 import { ReactComponent as Linkedin } from "../Icons/linkedin.svg";
 
 export const StyledFooter = styled.footer`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 135vh;
-  padding: 50px 0;
+ display: flex;
+ width: 90%;
+ margin: auto;
+ padding: 120px 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    width: 100%;
-    padding: 32px;
+    padding: 48px 0;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
-    margin: auto;
-    width: 80%;
-    align-items: start;
+    width: 90%;
   }
 `;
 
@@ -28,9 +24,17 @@ export const GithubIcon = styled(Github)`
   height: 48px;
   margin: 56px 24px 0 0;
   color: ${({ theme }) => theme.color.mineShaft};
+
+  &:hover {
+    color: ${({ theme }) => theme.color.blue};
+  }
 `;
 
 export const LinkedinIcon = styled(Linkedin)`
   width: 48px;
   color: ${({ theme }) => theme.color.mineShaft};
+
+  &:hover {
+    color: ${({ theme }) => theme.color.blue};
+  }
 `;

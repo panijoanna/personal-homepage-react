@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Icon } from "../Icons/github.svg";
 
 export const PortfolioSection = styled.section`
-  margin: 0 auto;
+  margin: 0 64px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
     margin: auto;
@@ -28,11 +28,9 @@ export const SkillsContainer = styled.div`
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 32px;
   grid-row-gap: 32px;
-  margin: 0 auto;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     grid-template-columns: 1fr;
-    margin: auto;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
@@ -52,7 +50,6 @@ export const PortfolioHeading = styled.h3`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: ${({ theme }) => theme.fontSizes.small};
-    padding-top: 20px;
   }
 `;
 
@@ -60,27 +57,33 @@ export const PortfolioParagraph = styled.p`
   display: flex;
   justify-content: flex-start;
   flex-wrap: nowrap;
-  gap: 5px;
   font-family: "Inter";
   font-style: normal;
   font-weight: ${({ theme }) => theme.fontWeights.regular};
   font-size: ${({ theme }) => theme.fontSizes.small};
   line-height: 25px;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.gray};
   margin-top: 12px;
+  gap: 5px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: ${({ theme }) => theme.fontSizes.xsmall};
     flex-direction: column;
     align-items: start;
+    margin: 0 auto;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
+    margin: 0;
   }
 `;
 
 export const Tile = styled.div`
   color: ${({ theme }) => theme.color.white};
-  width: 95vh;
-  height: 390px;
+  width: 100%;
   border: 6px solid ${({ theme }) => theme.color.athensGray};
   box-shadow: 0px -2px 50px ${({ theme }) => theme.color.athensGray};
     0px 16px 58px ${({ theme }) => theme.color.lightGray};
@@ -92,19 +95,28 @@ export const Tile = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
-    margin: 0 32px;
-    width: 80%;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    padding: 20px;
+    padding: 24px;
+    width: 90%;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
     margin: auto;
-    width: 80%;
+    width: 90%;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.maxDevice}px) {
+    margin: 0 auto;
+    padding: 30px;
+   }
+
+   @media (max-width: ${({ theme }) => theme.breakpoint.smallDevice}px) {
+    padding: 10px;
+    margin: 10px;
+   }
 `;
 
 export const StyledLink = styled(Link)`

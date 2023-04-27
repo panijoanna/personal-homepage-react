@@ -12,8 +12,10 @@ export const theme = {
     mercury: "#E5E5E5",
   },
   breakpoint: {
+    smallDevice: 280,
     mobileDevice: 767,
     tabletDevice: 1024,
+    maxDevice: 1280,
   },
   fontWeights: {
     regular: 400,

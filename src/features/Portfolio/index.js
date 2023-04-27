@@ -12,7 +12,7 @@ import useRepos from "./useRepos";
 import { StyledLink } from "./styled";
 import Loader from "../Loader";
 import Error from "../Error";
-import {GithubIcon} from "./styled";
+import { GithubIcon } from "./styled";
 
 const Portfolio = () => {
   const { repos, isLoading, error } = useRepos();
@@ -33,7 +33,9 @@ const Portfolio = () => {
           {repos.map((repo) => (
             <Tile key={repo.id}>
               <PortfolioHeading>{repo.name}</PortfolioHeading>
+              <br />
               <PortfolioParagraph>{repo.description}</PortfolioParagraph>
+              <br />
               <PortfolioParagraph>
                 Demo:
                 <StyledLink href={repo.homepage} target="_blank">
