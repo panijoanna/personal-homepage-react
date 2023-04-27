@@ -23,6 +23,7 @@ export const UppercaseParagraph = styled(StyledParagraph)`
   line-height: 130%;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.gray};
+  margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: ${({ theme }) => theme.fontSizes.xsmall};
