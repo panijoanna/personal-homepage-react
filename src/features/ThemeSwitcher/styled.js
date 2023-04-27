@@ -8,6 +8,10 @@ export const ThemeButton = styled.button`
   height: 25px;
   border-radius: 30px;
   cursor: pointer;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+    margin: 10px 10px 0;
+  }
 `;
 
 export const ThemeToggleIcon = styled(ToggleIcon)`
