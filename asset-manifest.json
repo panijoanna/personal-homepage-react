@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.js": "/personal-homepage-react/static/js/main.6e17bc15.js",
+    "main.js": "/personal-homepage-react/static/js/main.70b550c8.js",
     "static/js/787.df33c875.chunk.js": "/personal-homepage-react/static/js/787.df33c875.chunk.js",
     "static/media/photo.jpg": "/personal-homepage-react/static/media/photo.b96412610248767fb648.jpg",
-    "static/media/toggleicon.svg": "/personal-homepage-react/static/media/toggleicon.93d2e779a90519cdcf43c1946deadf7a.svg",
+    "static/media/sun.svg": "/personal-homepage-react/static/media/sun.21383d96338203cc13be02699f2dd1dc.svg",
+    "static/media/github.svg": "/personal-homepage-react/static/media/github.ed1e4094e0886464ca1a076e64e492c8.svg",
     "index.html": "/personal-homepage-react/index.html",
-    "static/media/loaderIcon.svg": "/personal-homepage-react/static/media/loaderIcon.f0cf9f6aef365567ad9b9a0d34b8b760.svg",
-    "main.6e17bc15.js.map": "/personal-homepage-react/static/js/main.6e17bc15.js.map",
+    "static/media/error.svg": "/personal-homepage-react/static/media/error.3b4fd3e4832ceaf79320fd23c0b84ce9.svg",
+    "static/media/linkedin.svg": "/personal-homepage-react/static/media/linkedin.5fac59fc662b2a089327e72909eb3444.svg",
+    "static/media/message.svg": "/personal-homepage-react/static/media/message.5e558b62a84fe4cffa3432a34465819f.svg",
+    "static/media/spinner.svg": "/personal-homepage-react/static/media/spinner.c114f1d691fbb8ac816fd6f94c86fa7d.svg",
+    "main.70b550c8.js.map": "/personal-homepage-react/static/js/main.70b550c8.js.map",
     "787.df33c875.chunk.js.map": "/personal-homepage-react/static/js/787.df33c875.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.6e17bc15.js"
+    "static/js/main.70b550c8.js"
   ]
 }
