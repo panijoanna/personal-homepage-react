@@ -38,13 +38,21 @@ const Portfolio = () => {
               <br />
               <PortfolioParagraph>
                 Demo:
-                <StyledLink href={repo.homepage} target="_blank">
+                <StyledLink
+                  href={repo.homepage}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {repo.homepage}
                 </StyledLink>
               </PortfolioParagraph>
               <PortfolioParagraph>
                 Code:
-                <StyledLink href={repo.html_url} target="_blank">
+                <StyledLink
+                  href={repo.html_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {repo.html_url}
                 </StyledLink>
               </PortfolioParagraph>

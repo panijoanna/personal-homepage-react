@@ -2,7 +2,7 @@ import { ErrorContainer, ErrorMessage } from "./styled";
 import { Button } from "../../common/Button/styled";
 import { Link } from "../../common/Link/styled";
 import { StyledParagraph } from "../../common/Paragraph/styled";
-import {ReactComponent as ErrorIcon } from "../Icons/error.svg"
+import { ReactComponent as ErrorIcon } from "../Icons/error.svg";
 
 const Error = () => {
   return (
@@ -15,7 +15,11 @@ const Error = () => {
         <br />
         You can check them directly on Github."
       />
-      <Link href="https://github.com/panijoanna">
+      <Link
+        href="https://github.com/panijoanna"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <Button>Go to Github</Button>
       </Link>
     </ErrorContainer>
