@@ -39,7 +39,7 @@ const Portfolio = () => {
               <PortfolioParagraph>
                 Demo:
                 <StyledLink
-                  href={repo.homepage}
+                  to={repo.homepage}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -49,7 +49,7 @@ const Portfolio = () => {
               <PortfolioParagraph>
                 Code:
                 <StyledLink
-                  href={repo.html_url}
+                  to={repo.html_url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
