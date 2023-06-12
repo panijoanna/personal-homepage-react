@@ -12,6 +12,6 @@ export const ErrorMessage = styled.h3`
 export const ErrorContainer = styled.div`
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   flex-direction: column;
 `;
