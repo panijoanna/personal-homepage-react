@@ -16,9 +16,7 @@ const Header = () => {
         <HeadingTitle>Joanna Panimasz</HeadingTitle>
         <Paragraph
           body="
-          👩‍💻Passionate about Frontend technologies (React). Frontend is always
-          evolving and presents new challenges, which makes it an exciting field to be in.🚀"
-          color="#6E7E91"
+          My passion for Front-end (React) comes from constantly exploring new technologies, testing them, and acquiring inspiring knowledge that enriches my life."
         />
         <Link href="mailto:p.joanna93@gmail.com">
           <Button>
