@@ -1,8 +1,6 @@
 export const skillsToLearn = [
   "Typescript",
   "Unit Tests",
-  "JS Classes",
-  "React Context",
-  "TanStack Query",
+  "Framer Motion",
   "Tailwind",
 ];

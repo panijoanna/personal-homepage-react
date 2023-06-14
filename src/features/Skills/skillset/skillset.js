@@ -5,10 +5,10 @@ export const skillset = [
   "React",
   "Semantic & Accesible HTML",
   "Teamwork",
-  "Redux",
+  "React Context",
   "Responsive Web Design",
-  "CSS",
+  "HTML, CSS",
   "API",
   "Web Standards",
-  "HTML",
+  "Redux",
 ];
