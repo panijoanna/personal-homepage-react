@@ -1,8 +1,8 @@
-import Header from "./features/Header";
-import Portfolio from "./features/Portfolio";
-import { Wrapper } from "./common/Wrapper/styled";
-import Footer from "./features/Footer";
-import Skills from "./features/Skills";
+import Header from "../features/Header";
+import Portfolio from "../features/Portfolio";
+import { Wrapper } from "../common/Wrapper/styled";
+import Footer from "../features/Footer";
+import Skills from "../features/Skills";
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { themeLight, themeDark } from "./theme";
