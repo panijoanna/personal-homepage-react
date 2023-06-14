@@ -48,7 +48,6 @@ export const StyledParagraph = styled.p`
   font-size: ${({ theme }) => theme.fontSizes.xxsmall};
   line-height: 130%;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.gray};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: ${({ theme }) => theme.fontSizes.xsmall};
@@ -62,7 +61,7 @@ export const HeadingTitle = styled.h1`
   font-size: ${({ theme }) => theme.fontSizes.xxlarge};
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.color.heading};
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
