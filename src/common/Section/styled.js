@@ -8,10 +8,10 @@ export const StyledSection = styled.section`
   gap: 8px;
   width: 90%;
   max-width: 100%;
-  background-color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.color.tile};
   margin: 40px auto;
-  box-shadow: 0px -2px 50px ${({ theme }) => theme.color.athensGray},
-    0px 16px 58px ${({ theme }) => theme.color.lightGray};
+  box-shadow: 0px -2px 50px ${({ theme }) => theme.color.primaryShadow};
+  0px 16px 58px ${({ theme }) => theme.color.secondaryShadow};
   border-radius: 4px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
@@ -29,11 +29,11 @@ export const List = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
+  @media (max-width: 767px) {
     grid-template-columns: 1fr;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.maxDevice}px) {
+  @media (max-width: 1280px) {
     grid-column-gap: 30px;
   }
 `;
@@ -45,7 +45,7 @@ export const ItemList = styled.li`
   font-size: ${({ theme }) => theme.fontSizes.small};
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.gray};
+  color: ${({ theme }) => theme.color.text};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: ${({ theme }) => theme.fontSizes.xxsmall};

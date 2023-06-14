@@ -11,13 +11,12 @@ html {
     box-sizing: inherit;
   }
   
-  .body {
-    background-color: ${({ theme }) => theme.color.whiteLilac};
-    color: ${({ theme }) => theme.color.manatee};
+  body {
+    background: ${({ theme }) => theme.color.background};
+    transition: all 0.50s linear;
     font-family: "Poppins", sans-serif;
     line-height: 1.5;
     font-size: 16px;
     margin: 0 auto;
-    word-break: break-word;
   }
 `;

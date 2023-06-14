@@ -7,7 +7,7 @@ export const StyledParagraph = styled.p`
   font-size: ${({ theme }) => theme.fontSizes.medium};
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: ${({ color }) => color};
+  color: ${({ theme }) => theme.color.text};
   max-width: 600px;
   margin: 0 auto;
   padding: 12px 0;
@@ -22,7 +22,7 @@ export const UppercaseParagraph = styled(StyledParagraph)`
   font-size: ${({ theme }) => theme.fontSizes.xxsmall};
   line-height: 130%;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.gray};
+  color: ${({ theme }) => theme.color.text};
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
@@ -39,13 +39,18 @@ export const EmailParagraph = styled(StyledParagraph)`
   letter-spacing: 0.05em;
   width: 30px;
   margin: 0;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.color.heading};
+  transition: 0.3s;
 
   &:hover {
-    color: ${({ theme }) => theme.color.blue};
+    color: ${({ theme }) => theme.color.link};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: ${({ theme }) => theme.fontSizes.small};
   }
+`;
+
+export const SecondaryParagraph = styled(StyledParagraph)`
+  color: ${({ theme }) => theme.color.heading};
 `;

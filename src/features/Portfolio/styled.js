@@ -39,7 +39,7 @@ export const SkillsContainer = styled.div`
 `;
 
 export const PortfolioHeading = styled.h3`
-  color: ${({ theme }) => theme.color.blue};
+  color: ${({ theme }) => theme.color.portfolioHeading};
   font-size: ${({ theme }) => theme.fontSizes.large};
   line-height: 29px;
   letter-spacing: 0.05em;
@@ -63,7 +63,7 @@ export const PortfolioParagraph = styled.p`
   font-size: ${({ theme }) => theme.fontSizes.small};
   line-height: 25px;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.gray};
+  color: ${({ theme }) => theme.color.text};
   margin-top: 12px;
   gap: 5px;
 
@@ -82,16 +82,16 @@ export const PortfolioParagraph = styled.p`
 `;
 
 export const Tile = styled.div`
-  color: ${({ theme }) => theme.color.white};
   width: 100%;
-  border: 6px solid ${({ theme }) => theme.color.athensGray};
-  box-shadow: 0px -2px 50px ${({ theme }) => theme.color.athensGray};
-    0px 16px 58px ${({ theme }) => theme.color.lightGray};
+  border: 6px solid ${({ theme }) => theme.color.border};
+  box-shadow: 0px -2px 50px ${({ theme }) => theme.color.primaryShadow};
+  0px 16px 58px ${({ theme }) => theme.color.secondaryShadow};
   border-radius: 4px;
   padding: 56px;
+  transition: 0.4s;
 
   &:hover {
-    border: 6px solid ${({ theme }) => theme.color.tropicalBlue};
+    border: 6px solid ${({ theme }) => theme.color.tileHover};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
@@ -120,7 +120,7 @@ export const Tile = styled.div`
 `;
 
 export const StyledLink = styled(Link)`
-  color: ${({ theme }) => theme.color.blue};
+  color: ${({ theme }) => theme.color.link};
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
@@ -134,7 +134,7 @@ export const StyledLink = styled(Link)`
 `;
 
 export const GithubIcon = styled(Icon)`
-  fill: ${({ theme }) => theme.color.blue};
   width: 40px;
+  color: ${({ theme }) => theme.color.button};
   height: 40px;
 `;

@@ -8,10 +8,10 @@ export const Button = styled.button`
   gap: 16px;
   font-family: "Inter";
   font-weight: ${({ theme }) => theme.fontWeights.medium};
-  background: ${({ theme }) => theme.color.blue};
-  color: ${({ theme }) => theme.color.white};
-  border: 1px solid ${({ theme }) => theme.color.athensGray};
+  background: ${({ theme }) => theme.color.button};
+  color: ${({ theme }) => theme.color.buttonText};
+  border: none;
   border-radius: 4px;
   margin-top: 15px;
-  font-size: ${({ theme }) => theme.fontSizes.medium};
+  font-size: ${({ theme }) => theme.fontSizes.small};
 `;

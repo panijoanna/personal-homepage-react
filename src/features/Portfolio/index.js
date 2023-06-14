@@ -20,7 +20,7 @@ const Portfolio = () => {
   return (
     <PortfolioSection>
       <TitleContainer>
-        <GithubIcon color="#0366D6" size="40" />
+        <GithubIcon />
         <Heading title="Portfolio" />
         <Paragraph body="My recent projects" />
       </TitleContainer>

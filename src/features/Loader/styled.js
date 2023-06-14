@@ -3,7 +3,7 @@ import { ReactComponent as Icon } from "../Icons/spinner.svg";
 
 export const LoaderIcon = styled(Icon)`
   animation: rotate 1s linear infinite;
-  color: ${({ theme }) => theme.color.blue};
+  color: ${({ theme }) => theme.color.load};
 
   @keyframes rotate {
     100% {
