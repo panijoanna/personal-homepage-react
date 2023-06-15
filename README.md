@@ -1,7 +1,13 @@
 ## 👋  Hi, I'm Joanna - Frontend Developer 
 
 ### ✅ Demo
+Here is my portfolio:
 https://panijoanna.github.io/personal-homepage-react/
+
+### What I have used in this project
+* React context (for theme)
+* LocalStorage
+* Projects downloaded from the github API
 
 ### About me 
 * A **passionate enthusiast** of frontend technologies, particularly **React**. I am always excited to **discover** new frontend features, libraries and tools. Working with React gives me a lot of satisfaction because it is **enjoyable** and allows me to create intuitive, responsive websites based on components.
