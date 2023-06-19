@@ -24,7 +24,7 @@ export const ThemeToggleIcon = styled(ToggleIcon)`
   transition: 0.3s;
 
   ${({ move }) =>
-    move &&
+    move === "dark" &&
     css`
       transform: translateX(20px);
     `}
