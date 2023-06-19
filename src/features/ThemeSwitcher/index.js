@@ -8,7 +8,7 @@ const ThemeSwitcher = () => {
   return (
     <ThemeWrapper>
       <ThemeButton onClick={themeToggler}>
-        <ThemeToggleIcon move />
+        <ThemeToggleIcon theme={theme} />
       </ThemeButton>
     </ThemeWrapper>
   );

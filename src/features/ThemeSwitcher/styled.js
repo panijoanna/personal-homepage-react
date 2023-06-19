@@ -23,8 +23,8 @@ export const ThemeToggleIcon = styled(ToggleIcon)`
   height: 18px;
   transition: 0.3s;
 
-  ${({ move }) =>
-    move === "dark" &&
+  ${({ theme }) =>
+    theme === "dark" &&
     css`
       transform: translateX(20px);
     `}
