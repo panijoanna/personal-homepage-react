@@ -19,7 +19,7 @@ function App() {
   }, [theme]);
 
   const themeToggler = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light");
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
   return (
