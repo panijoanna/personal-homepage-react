@@ -9,10 +9,10 @@ import { themeLight, themeDark } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeContext } from "styled-components";
 import { saveThemeInLocalStorage } from "../features/ThemeSwitcher/themeLocalStorage";
-import { getTasksFromLocalStorage } from "../features/ThemeSwitcher/themeLocalStorage";
+import { getThemeFromLocalStorage } from "../features/ThemeSwitcher/themeLocalStorage";
 
 function App() {
-  const [theme, setTheme] = useState(getTasksFromLocalStorage());
+  const [theme, setTheme] = useState(getThemeFromLocalStorage());
 
   useEffect(() => {
     saveThemeInLocalStorage(theme);
