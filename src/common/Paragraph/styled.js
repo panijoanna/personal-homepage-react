@@ -15,6 +15,10 @@ export const StyledParagraph = styled.p`
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     font-size: ${({ theme }) => theme.fontSizes.xsmall};
   }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.maxDevice}px) {
+    margin-left: 0;
+  }
 `;
 
 export const UppercaseParagraph = styled(StyledParagraph)`
