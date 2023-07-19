@@ -12,6 +12,11 @@ export const ThemeButton = styled.button`
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     margin: 10px 10px 0;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.iphoneDevice}px) {
+    display: flex;
+    align-items: center;
+  }
 `;
 
 export const ThemeToggleIcon = styled(ToggleIcon)`
