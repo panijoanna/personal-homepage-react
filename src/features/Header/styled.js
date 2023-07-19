@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { animated } from "react-spring";
 
-export const StyledHeader = styled.header`
+export const StyledHeader = styled(animated.header)`
   display: flex;
   padding: 100px;
   width: 100%;
