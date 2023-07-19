@@ -16,6 +16,7 @@ export const ThemeButton = styled.button`
   @media (max-width: ${({ theme }) => theme.breakpoint.iphoneDevice}px) {
     display: flex;
     align-items: center;
+    padding: 2px;
   }
 `;
 
@@ -31,7 +32,7 @@ export const ThemeToggleIcon = styled(ToggleIcon)`
   ${({ currenttheme }) =>
     currenttheme === "dark" &&
     css`
-      transform: translateX(15px);
+      transform: translateX(22px);
     `}
 `;
 
