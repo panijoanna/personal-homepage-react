@@ -1,6 +1,7 @@
 const common = {
   breakpoint: {
     smallDevice: 280,
+    iphoneDevice: 400,
     mobileDevice: 767,
     tabletDevice: 1024,
     maxDevice: 1280,
