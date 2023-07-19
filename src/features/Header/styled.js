@@ -19,6 +19,7 @@ export const StyledHeader = styled(animated.header)`
 
   @media (min-width: ${({ theme }) => theme.breakpoint.maxDevice}px) {
     padding: 80px;
+    justify-content: space-between;
   }
 `;
 
@@ -82,5 +83,9 @@ export const Container = styled.div`
     padding-left: 0;
     justify-content: flex-start;
     align-items: flex-start;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.maxDevice}px) {
+    width: 80%;
   }
 `;
