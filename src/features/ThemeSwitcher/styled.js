@@ -32,7 +32,7 @@ export const ThemeToggleIcon = styled(ToggleIcon)`
   ${({ currenttheme }) =>
     currenttheme === "dark" &&
     css`
-      transform: translateX(22px);
+      transform: translateX(18px);
     `}
 `;
 
