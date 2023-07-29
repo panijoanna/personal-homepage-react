@@ -4,6 +4,10 @@ import { ReactComponent as Icon } from "../Icons/github.svg";
 
 export const PortfolioSection = styled.section`
   margin: 0 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
     margin: auto;
