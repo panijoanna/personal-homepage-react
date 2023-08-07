@@ -12,7 +12,7 @@ const Footer = () => {
     <StyledFooter>
       <FooterContainer>
         <UppercaseParagraph>Let's talk</UppercaseParagraph>
-        <EmailParagraph>p.joanna93@gmail.com</EmailParagraph>
+        <EmailParagraph>joanna@panimasz.pl</EmailParagraph>
         <SecondaryParagraph>
           I am a dedicated and passionate developer ready to tackle new
           challenges and bring creative solutions to your projects. Don't

@@ -1,6 +1,6 @@
 export const skillset = [
   "Javascript ES6+",
-  "Testing & Debugging",
+  "Debugging",
   "Git",
   "React",
   "Semantic & Accesible HTML",
@@ -11,4 +11,9 @@ export const skillset = [
   "API",
   "Web Standards",
   "Redux",
+  "Tailwind",
+  "Vue",
+  "Vitest",
+  "Pinia",
+  "Typescript (basic knowledge)",
 ];

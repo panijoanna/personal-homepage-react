@@ -1,6 +1,1 @@
-export const skillsToLearn = [
-  "Typescript",
-  "Unit Tests",
-  "Framer Motion",
-  "Tailwind",
-];
+export const skillsToLearn = ["Typescript", "Jest", "Framer Motion"];
