@@ -41,5 +41,6 @@ export const ThemeWrapper = styled.div`
     display: flex;
     justify-content: flex-end;
     order: -1;
+    margin-right: 20px;
   }
 `;
