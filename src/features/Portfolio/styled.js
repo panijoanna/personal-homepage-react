@@ -11,7 +11,6 @@ export const PortfolioSection = styled.section`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
     margin: auto;
-    width: 100%;
   }
 `;
 

@@ -6,6 +6,7 @@ export const StyledHeader = styled(animated.header)`
   padding: 100px;
   width: 100%;
   justify-content: center;
+  margin-left: 30px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletDevice}px) {
     padding: 50px;
@@ -24,11 +25,11 @@ export const StyledHeader = styled(animated.header)`
 `;
 
 export const Image = styled.img`
-  max-width: 30%;
   border-radius: 50%;
   margin-bottom: 0;
-  width: 80%;
   display: flex;
+  max-width: 300px;
+  height: auto;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileDevice}px) {
     max-width: 200px;
