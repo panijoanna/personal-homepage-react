@@ -19,7 +19,7 @@ const Header = () => {
         <HeadingTitle>Joanna Panimasz</HeadingTitle>
         <Paragraph
           body="
-          My passion for Front-end comes from constantly exploring new technologies, testing them, and acquiring inspiring knowledge that enriches my life."
+          My passion for Front-End comes from constantly exploring new technologies, testing them, and acquiring inspiring knowledge that enriches my life."
         />
         <Link href="mailto:p.joanna93@gmail.com">
           <Button>
